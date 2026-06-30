@@ -1,0 +1,31 @@
+.counter-container {
+    background-color: #0f1115;
+    padding: 25px 0;
+    width: 100%;
+    display: flex !important;          
+    flex-direction: row !important;     
+    justify-content: center;         
+    align-items: center;
+    gap: 6px;                      
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.counter-box {
+    background-color: #2b303c;
+    color: #ffffff;
+    font-size: 3.8rem;
+    font-weight: bold;
+    min-width: 65px;
+    height: 95px;
+    line-height: 95px;             
+    text-align: center;
+    border: 1px solid #1a1d24;
+    flex-shrink: 0 !important;    
+    user-select: none;
+}
+
+.clock-box {
+    color: #a0aec0;
+    background-color: #20242f;
+}
